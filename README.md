@@ -22,6 +22,9 @@ Ce repository contient:
 
 https://drive.google.com/open?id=1KUkX3YBGJ-JLqRe45SV2AlWLxYJhun-gShUu3g2Ezk4
 
+
+## Un petit sondage à remplir pour améliorer la présentat (slides)
+https://goo.gl/forms/3FGAeoOGMOGu0OkO2
 ## Data-Science repo Setup
 
 #### Installer Docker
