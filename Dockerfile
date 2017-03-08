@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 # get up pip, vim, etc.
 RUN apt-get -y update --fix-missing
-RUN apt-get install -y python-pip python-dev libev4 libev-dev gcc libxslt-dev libxml2-dev libffi-dev vim curl libfreetype6-dev libpng-dev
+RUN apt-get install -y python-pip python-dev libev4 libev-dev gcc libxslt-dev libxml2-dev libffi-dev vim curl libfreetype6-dev libpng-dev python-gdal
 
 RUN pip install --upgrade pip
 
@@ -15,6 +15,7 @@ RUN pip install jupyter
 RUN pip install six==1.6.0
 RUN pip install matplotlib
 RUN pip install pandas
+RUN pip install scikit-image
 
 
 
