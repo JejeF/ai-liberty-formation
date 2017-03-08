@@ -19,15 +19,15 @@ RUN pip install scikit-image
 
 
 
-ENV WORKINF_DIR_NAME working_dir
+ENV WORKING_DIR_NAME working_dir
 ENV TINI_VERSION v0.6.0
 
 
-RUN mkdir /${WORKINF_DIR_NAME}
-WORKDIR "/{WORKINF_DIR_NAME}"
+RUN mkdir /${WORKING_DIR_NAME}
+WORKDIR /${WORKING_DIR_NAME}
 
 # add our project
-ADD . /{WORKINF_DIR_NAME}/
+ADD . /${WORKING_DIR_NAME}/
 
 EXPOSE 8888
 

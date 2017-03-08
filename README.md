@@ -55,6 +55,11 @@ Placez-vous à la racine du projet et lancez :
 ```bash
 docker run -p 8888:8888 jupyter
 ```
+add a persistent directory with beteween the host and the contenair:
+
+```bash
+docker run -p 8888:8888 -v ~/dir_presitent_directory_path:/working_dir/persistent/ jupyter
+```
 
 Vous pouvez directement aller dans votre navigateur Internet : `localhost:8888/`
 
